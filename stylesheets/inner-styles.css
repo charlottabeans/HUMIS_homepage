@@ -14,7 +14,9 @@ body {
         min-height: 600px;
 
         header {
-            border-bottom: 5px solid #91935D;
+            img {
+                display: block;
+            }
         }
 
         section.middle{
@@ -52,13 +54,12 @@ body {
                     .links{
                         display: flex;
                         flex-direction: column;
-
+                        margin-bottom: 2rem;
                     }
                 }
 
                 &.right-side{
                     width: 70%;
-                    min-height: 600px;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
