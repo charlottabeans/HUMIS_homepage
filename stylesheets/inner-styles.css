@@ -96,14 +96,6 @@ body {
 
                     main{
                         min-height: 600px;
-
-                        img{
-                            &.pull-right{
-                                float: right;
-                                width: 150px;
-                                margin: 0 0 15px 15px;
-                            }
-                        }
                     }
                 }
             }
