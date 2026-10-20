@@ -30,7 +30,7 @@ main{
 
 
         h6{
-            border-radius: 10px 0 35px 5px;
+           text-align: center;
         }
 
         &:hover {
