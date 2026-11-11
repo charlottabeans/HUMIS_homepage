@@ -7,17 +7,45 @@
 
     <style>
         /* local styles */
-        main nav.inner-nav{
-            gap: 5px;
-            display: flex;
-            font-size: 11px;
-            color: var(--burgundy);
-            border-bottom: 2px solid var(--burgundy);
-            padding-bottom: 15px;
-            margin-bottom: 15px;
+        main{
+            nav.inner-nav {
+                gap: 5px;
+                display: flex;
+                font-size: 11px;
+                color: var(--burgundy);
+                border-bottom: 2px solid var(--dark);
+                padding-bottom: 15px;
+                margin-bottom: 15px;
 
-            a{
+                a {
+                    text-transform: uppercase;
+                    color: var(--burgundy);
+                    text-decoration: none;
 
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            section.content{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                h3{
+                    margin: 0;
+                }
+
+                div{
+                    h6{
+                        color: var(--dark);
+                    }
+
+                    p{
+                        margin: 0;
+                    }
+                }
             }
         }
     </style>
@@ -61,7 +89,7 @@
         <section class="right-side">
             <nav class="secondary top-nav">
                 <a href="#">Campus Directory</a>
-                <a href="#">Department Calander</a>
+                <a href="#">Department Calendar</a>
                 <a href="#">Contact Us</a>
                 <a href="#">
                     <img src="files/u_small.gif" alt="U of U Logo"/>
@@ -71,23 +99,53 @@
             <main>
                 <nav class="inner-nav">
                     <a href="#">Contact information</a>
+                    |
                     <a href="#">Faculty directory</a>
+                    |
                     <a href="#">Staff directory</a>
                 </nav>
 
-                <h3> Contact Us </h3>
-                <div>
-                    <h6>FAX</h6>
-                    <p>(801) 585-0580</p>
-                </div>
-                    <h6>HOURS</h6>
-                    <p>
-                        Monday - Friday
-                        8:00 AM - 5:00 PM
-                    </p>
-                <div>
+                <section class="content">
+                    <h3> Contact Us </h3>
 
-                </div>
+                    <div>
+                        <h6>U.S. MAIL</h6>
+                        <p>
+                            University of Utah<br/>
+                            Department of History<br/>
+                            300 S 1400 E RM 211<br/>
+                            Salt Lake City, UT 84112-0311
+                        </p>
+                    </div>
+
+                    <div>
+                        <h6>CAMPUS MAIL</h6>
+                        <p>
+                            Department of History
+                            211 C Hall
+                        </p>
+                    </div>
+
+                    <div>
+                        <h6>PHONE</h6>
+                        <p>
+                            (801) 581-6121
+                        </p>
+                    </div>
+
+                    <div>
+                        <h6>FAX</h6>
+                        <p>(801) 585-0580</p>
+                    </div>
+
+                    <div>
+                        <h6>HOURS</h6>
+                        <p>
+                            Monday - Friday
+                            8:00 AM - 5:00 PM
+                        </p>
+                    </div>
+                </section>
 
                 <form class="contact-form">
                     <label>
