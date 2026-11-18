@@ -38,6 +38,27 @@ section.horizontal-two-column-layout {
                 }
             }
 
+            div.grad-nav{
+                p{
+                    margin-bottom: 5px;
+                }
+                a{
+                    display: block;
+                    text-decoration: none;
+                    color: black;
+                    font-size: 0.75rem;
+                    margin-bottom: 0.2rem;
+
+                    &.active{
+                        font-weight: bold;
+                    }
+
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+
             div.top{
                 &.undergrad{
                     h6{
