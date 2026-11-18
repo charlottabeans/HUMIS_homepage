@@ -109,6 +109,30 @@ body {
                             }
                         }
                     }
+
+                    aside{
+                        &.right-column{
+                            div {
+                                &.base{
+                                    h5{
+                                        margin: 0 0 0 0;
+                                    }
+                                }
+
+                                &.faculty-info {
+                                    p{
+                                        margin-top: 0;
+                                    }
+                                    h6{
+                                        color: black;
+                                    }
+                                }
+
+                            }
+
+                        }
+                    }
+
                 }
             }
         }

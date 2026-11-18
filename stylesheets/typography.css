@@ -67,5 +67,25 @@ body{
             font-weight: bold;
         }
 
+        &.nav-title{
+            color: var(--burgundy);
+            margin-bottom: 0;
+        }
+        &.staff-nav{
+            margin-top: 5px;
+            a{
+                text-decoration: none;
+                color: var(--burgundy);
+                display: flex;
+                flex-direction: column;
+
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+
+
     }
 }

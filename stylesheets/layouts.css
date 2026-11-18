@@ -1,5 +1,4 @@
 section.horizontal-two-column-layout {
-    border: 3px dashed darkgray;
     display: flex;
     min-height: 100%;
     gap: 1rem;
@@ -11,6 +10,7 @@ section.horizontal-two-column-layout {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            border-right: 2px dotted gray;
 
             p{
                 text-align: left;
@@ -54,6 +54,11 @@ section.horizontal-two-column-layout {
                         display: block;
 
                         &.name{
+                            font-weight: bold;
+                            font-size: 0.6rem;
+                        }
+
+                        &.title{
                             font-weight: bold;
                             font-size: 0.6rem;
                         }
