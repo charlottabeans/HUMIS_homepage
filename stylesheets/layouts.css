@@ -16,6 +16,10 @@ section.horizontal-two-column-layout {
                 text-align: left;
             }
 
+            h4{
+                display: flex;
+            }
+
             div.undergrad-nav{
                 a{
                     display: block;
@@ -24,6 +28,10 @@ section.horizontal-two-column-layout {
                     font-size: 0.75rem;
                     margin-bottom: 0.2rem;
 
+                    &.active{
+                        font-weight: bold;
+                    }
+
                     &:hover{
                         text-decoration: underline;
                     }
@@ -31,6 +39,11 @@ section.horizontal-two-column-layout {
             }
 
             div.top{
+                &.undergrad{
+                    h6{
+                        margin-bottom: 5px;
+                    }
+                }
                 div.category{
                     a{
                         display: block;
