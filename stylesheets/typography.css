@@ -18,6 +18,7 @@ body{
     h1{
         font-size: 1.75rem;
         border-bottom: 6px solid var(--burgundy);
+        text-align: center;
     }
 
     h2{
@@ -59,6 +60,21 @@ body{
             }
         }
 
+        &.more-history{
+            text-align: left;
+
+            a{
+                text-decoration: none;
+                font-weight: bold;
+                font-size: .6rem;
+                color: var(--burgundy);
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+
         /* @TODO come up with a better name here: */
 
         .shrug{
@@ -71,8 +87,10 @@ body{
             color: var(--burgundy);
             margin-bottom: 0;
         }
+
         &.staff-nav{
             margin-top: 5px;
+
             a{
                 text-decoration: none;
                 color: var(--burgundy);

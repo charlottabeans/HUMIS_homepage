@@ -16,6 +16,20 @@ section.horizontal-two-column-layout {
                 text-align: left;
             }
 
+            div.undergrad-nav{
+                a{
+                    display: block;
+                    text-decoration: none;
+                    color: black;
+                    font-size: 0.75rem;
+                    margin-bottom: 0.2rem;
+
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+
             div.top{
                 div.category{
                     a{
@@ -42,6 +56,10 @@ section.horizontal-two-column-layout {
                     }
 
 
+                }
+
+                h4{
+                    margin-bottom: 0;
                 }
             }
 
