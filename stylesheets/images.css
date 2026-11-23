@@ -19,12 +19,25 @@ main{
             }
         }
 
+        &.left-logo{
+            width: 12%;
+            float: left;
+        }
+
         &.right{
             float: right;
             margin: 0 0 5px 15px;
 
             img{
                 border-radius: 10px 0 35px 5px;
+            }
+
+            &.small{
+                margin-top: 30px;
+                img{
+                    width: 55%;
+                    float: right;
+                }
             }
         }
 
