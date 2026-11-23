@@ -66,6 +66,14 @@ body{
                     font-size: .6rem;
                 }
             }
+
+            &.download{
+                text-align: left;
+
+                a{
+                    font-weight: bold;
+                }
+            }
         }
 
 
