@@ -1,5 +1,12 @@
-main{
+header{
+    div.special-header{
+        img{
+            width: 100%;
+        }
+    }
+}
 
+main{
     aside.pull{
         /*border: 5px solid orange;*/
         display: inline-block;

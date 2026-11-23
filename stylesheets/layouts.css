@@ -3,6 +3,12 @@ section.horizontal-two-column-layout {
     min-height: 100%;
     gap: 1rem;
 
+    &.text-above{
+     min-height: 90%;
+    }
+
+
+
     aside{
 
         &.left-column{
