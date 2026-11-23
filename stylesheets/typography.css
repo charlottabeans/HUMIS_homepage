@@ -56,6 +56,13 @@ body{
                 &:hover{
                     text-decoration: underline;
                 }
+
+            }
+
+            &.left{
+                text-align: left;
+                margin-top: 0;
+
             }
 
             &.history{

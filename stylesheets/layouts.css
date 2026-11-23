@@ -60,6 +60,16 @@ section.horizontal-two-column-layout {
             }
 
             div.top{
+                h4{
+                    margin-bottom: 5px;
+                    text-transform: uppercase;
+                }
+
+                h5{
+                    text-transform: uppercase;
+                    margin-bottom: 5px;
+                }
+
                 &.fit{
                     h5{
                         font-size: 1.05rem;
@@ -92,11 +102,6 @@ section.horizontal-two-column-layout {
                     }
 
 
-                }
-
-                h4{
-                    margin-bottom: 5px;
-                    text-transform: uppercase;
                 }
             }
 

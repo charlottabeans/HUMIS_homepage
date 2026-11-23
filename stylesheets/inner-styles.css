@@ -122,7 +122,36 @@ body {
                     }
 
                     aside.right-column{
+
                         div {
+
+                            &.info{
+                                p {
+                                    margin-top: 0;
+                                }
+                            }
+
+                            &.mid-header{
+                                h6{
+                                    text-transform: uppercase;
+                                    margin-bottom: 0;
+                                }
+                            }
+
+                            &.learn-more{
+                                display: flex;
+                                flex-direction: column;
+                                p{
+                                    margin-bottom: 0;
+                                }
+
+                                div.first{
+                                    p{
+                                        margin-top: 5px;
+                                    }
+                                }
+                            }
+
                             &.base{
                                 h5{
                                     margin: 0 0 0 0;
